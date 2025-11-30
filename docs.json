@@ -4,8 +4,8 @@
   "name": "Flow Docs",
   "colors": {
     "primary": "#f74e0b",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#f74e0b",
+    "dark": "#f74e0b"
   },
   "favicon": "/favicon.svg",
   "navigation": {
