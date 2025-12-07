@@ -23,9 +23,9 @@
           {
             "group": "Intelligent inbox",
             "pages": [
-              "intelligent-inbox/ai-labels",
+              "intelligent-inbox/auto-labels",
               "intelligent-inbox/briefings",
-              "intelligent-inbox/email-client"
+              "intelligent-inbox/email-management"
             ]
           },
           {
