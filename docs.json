@@ -42,6 +42,15 @@
               "assistant/chat-voice",
               "assistant/automations"
             ]
+          },
+          {
+            "group": "Other",
+            "pages": [
+              "other/settings",
+              "other/mobile",
+              "other/keybopard-shortcuts",
+              "other/security"
+            ]
           }
         ]
       }
