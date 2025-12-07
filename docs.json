@@ -39,7 +39,8 @@
           {
             "group": "Assistant",
             "pages": [
-              "assistant/chat-voice"
+              "assistant/chat-voice",
+              "assistant/automations"
             ]
           },
           {
