@@ -39,9 +39,7 @@
           {
             "group": "Assistant",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "assistant/chat-voice"
             ]
           },
           {
