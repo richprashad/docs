@@ -23,8 +23,9 @@
           {
             "group": "Intelligent inbox",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "intelligent-inbox/ai-labels",
+              "intelligent-inbox/briefings",
+              "intelligent-inbox/email-client"
             ]
           },
           {
