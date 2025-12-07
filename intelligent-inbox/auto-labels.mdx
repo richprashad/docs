@@ -1,6 +1,64 @@
 ---
-title: 'Auto labels'
-description: 'Description of your new file.'
-icon: 'folder-bookmark'
+title: "Auto labels"
+description: "Automated triage, organization, and prioritzation of your emails"
+icon: "folder-bookmark"
 ---
 
+## Introduction
+
+Auto labels will triage your incoming and ongoing emails and automatically apply labels in Gmail and Outlook based on the person, content, and context.
+
+Flow’s goal is to defend you against distracting emails so you can focus on what’s important and actionable. 
+
+Think of it as the gatekeeper between you and the chaos of everything in your inbox. Separating the signal from the noise.
+
+An example of the labels Flow will create in Gmail and Outlook:
+
+![57469087.png](/images/57469087.png)
+
+Unlike other email management tools, which only consider whether the person who’s sending the email is important to you, Flow also considers the content (words that sound urgent) and context (about a meeting today) to decide whether to interrupt your focus.
+
+Also, because Flow applies native Gmail and Outlook labels, you can take full advantage of these labels in your Gmail, Outlook, or other email clients like Superhuman.
+
+## Using auto labels in Gmail or Superhuman
+
+Here’s how I’ve used Gmail’s multiple Inbox feature to set up my inbox:
+
+![57469088.png](/images/57469088.png)
+
+### Search Queries for Gmail Multiple Inboxes:
+
+- label:@FlowImportant in:inbox | Important
+- label:@1: To Respond in:inbox | To Respond
+- label:@3: Awaiting Reply in:sent | Awaiting Reply
+- label:@5: Meeting Update in:inbox | Meeting Update
+- label:@6: Notification in:inbox | Notification
+
+Flow will then automatically organize your emails into these sections.
+
+### Search Queries for Superhuman Split Inboxes:
+
+- label:@FlowImportant | Important
+- label:”@1: To Respond”| To Respond
+- label:”@3: Awaiting Reply” | Awaiting Reply
+- label:”@5: Meeting Update” | Meeting Update
+- label:”@6: Notification”| Notification
+
+Superhuman will then automatically organize your emails into these split inboxes.
+
+### Hide Gmail Labels from IMAP (and therefore from Superhuman)
+
+1. Go to Gmail (web)
+2. Open [gmail.com](http://gmail.com) in your browser.
+3. Click the gear icon → “See all settings”
+   1. Navigate to the Labels tab.
+   2. You’ll see a list of all your labels, with two columns:
+      1. Show in label list
+      2. Show in IMAP
+   3. Uncheck “Show in IMAP” for any label you don't want to appear in Superhuman.
+
+Superhuman reads Gmail labels through IMAP. Hiding them from IMAP removes them from view in Superhuman, but they’ll still exist in Gmail if you want to access them there.
+
+<Note>
+  You can email us anytime at [hello@enterflow.co](mailto:hello@enterflow.co) with questions.
+</Note>
