@@ -21,14 +21,14 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Intelligent inbox",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Daily planner",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -37,7 +37,15 @@
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Assistant",
+            "pages": [
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ]
+          },
+          {
+            "group": "Other",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
