@@ -32,7 +32,6 @@
             "group": "Daily planner",
             "pages": [
               "daily-planner/task-management",
-              "daily-planner/time-blocking",
               "daily-planner/calendar-management"
             ]
           },
